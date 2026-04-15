@@ -1,0 +1,117 @@
+# Python / FastAPI backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.pydevproject
+.venv/
+venv/
+ENV/
+env/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+.dmypy/
+
+# Pyenv
+.python-version
+
+# Pipenv / Poetry lock files
+# (keep lock files if you want reproducible installs)
+# Pipfile.lock
+# poetry.lock
+
+# Test caches
+.cache/
+.pytest_cache/
+
+# FastAPI / Uvicorn / ASGI
+*.sqlite3
+*.db
+instance/
+
+# Static/media
+/static
+/media
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Python build/package artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Dependency directories
+__pypackages__/
+
+# Local config and secrets
+*.env
+.env
+.env.*
+credentials.json
+secret.key
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker-compose.override.yml
+
+# Frontend / JavaScript / Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Frontend build outputs
+build/
+dist/
+out/
+.next/
+.nuxt/
+\.vercel/
+
+# Caches
+.cache/
+.next/
+.nuxt/
+
+# Static generated files
+public/
+
+# Lockfile comments
+# Keep lockfiles in source control for consistent installs.
+
+# Misc
+*.log
+*.tsbuildinfo
+
+# Optional: ignore migrations if you prefer not to commit DB schema files
+migrations/
