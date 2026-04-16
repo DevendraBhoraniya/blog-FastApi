@@ -9,3 +9,4 @@ class DbPost(Base):
   content = Column(String)
   creator = Column(String)
   timestamp = Column(DateTime)
+  
