@@ -29,7 +29,10 @@
 }
 
 .post_delete {
-  margin: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: red;
+  border-radius:  20px;
 }
 
 .post_creator {

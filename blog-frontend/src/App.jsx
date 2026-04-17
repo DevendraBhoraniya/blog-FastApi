@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import Post from './components/post'
+import NewPost from './components/NewPost'
 
 const BASE_URL = 'http://localhost:8000/'
 
@@ -37,6 +38,10 @@ function App() {
         {posts.map(post => (
           <Post post={post} />
         ))}
+
+        <div className='new_post'>
+          <NewPost />
+        </div>
       </div>
     </>
   )
